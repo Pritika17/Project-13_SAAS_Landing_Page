@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 70%;
+}
+
+section[aria-label="navbar"]{
+    height: 15vh;
+    width: 100%;
+    background-color: #7030cc;
+}
+
+nav{
+    background-color: #7030cc;
+    display: flex;
+    gap: 30rem;
+}
+
+.logo{
+    margin-top: 3rem;
+    margin-left: 17rem;
+}
+
+.logo-img{
+    width: 100px;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 5rem;
+    margin-top: 4rem;
+    list-style-type: none;
+}
+
+.nav-item{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+
+.nav-item:hover{
+    color: #1bbcef;
+    border-bottom: 1px solid palevioletred;
+    transition: .5s ease;
+}
+
+.nav-btn{
+    position: relative;
+    bottom: .5rem;
+    left: 2rem;
+    color: #fff;
+    background-color: #1bbcef;
+    padding: 1rem 1.5rem;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.banner-1{
+    height: 85vh;
+    background-color: #7030cc;
+    display: flex;
+}
+
+.left1{
+    width: 50vw;
+    display: flex;
+    gap: 7rem;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 5rem;
+}
+
+.h1b1{
+    font-size: 5rem;
+    color: #fff;
+}
+
+.p1b1{
+    margin-right: 8rem;
+    position: relative;
+    bottom: 4rem;
+    width: 24vw;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.img1{
+    width: 700px;
+}
+
+.banner-2{
+    height: 100vh;
+    display: flex;
+    gap: 20rem;
+}
+
+.img2{
+    width: 700px;
+}
+
+.right2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.h2b2{
+    font-size: 3rem;
+}
+
+.list{
+    position: relative;
+    bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.list-head h3{
+    font-size: 2.3rem;
+}
+
+.list-item p{
+    position: relative;
+    top: 1.5rem;
+    margin-left: 5rem;
+    width: 35rem;
+    font-size: 14px;
+}
+
+.list-head{
+    display: flex;
+    gap: 2rem;
+}
+
+.banner-3{
+    height: 90vh;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.h1b3{
+    font-size: 3.5rem;
+}
+
+.cards{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card{
+    width: 12rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 3rem 3rem;
+    box-shadow: 3px 1px 2px 2px rgb(0 0 0 / 30%);
+    margin: 0 20px;
+    border-radius: 60px;
+    width: 24rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    
+}
+
+.card img{
+    position: relative;
+    bottom: 8.5rem;
+}
+
+.circle1{
+    position: relative;
+    bottom: 8px;
+    content: "";
+    width: 10rem;
+    height: 10rem;
+    background-color: #faeaeb;
+    border-radius: 5rem;
+}
+
+.circle2{
+    position: relative;
+    bottom: 8px;
+    content: "";
+    width: 10rem;
+    height: 10rem;
+    background-color: #fbf0ee;
+    border-radius: 5rem;
+}
+
+.circle3{
+    position: relative;
+    bottom: 8px;
+    content: "";
+    width: 10rem;
+    height: 10rem;
+    background-color: #e9f4f6;
+    border-radius: 5rem;
+}
+
+.circle4{
+    position: relative;
+    bottom: 8px;
+    content: "";
+    width: 10rem;
+    height: 10rem;
+    background-color: #f2e7f5;
+    border-radius: 5rem;
+}
+
+.purple{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.purple h4{
+    font-size: 2rem;
+    color: black;
+}
+
+.purple p{
+    font-size: 14px;
+    color: black;
+}
+
