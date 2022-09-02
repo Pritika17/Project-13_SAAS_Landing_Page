@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+.container{
+    overflow: hidden;
+}
+
 html{
     font-size: 70%;
 }
@@ -38,6 +42,7 @@ nav{
     gap: 5rem;
     margin-top: 4rem;
     list-style-type: none;
+    z-index: 10;
 }
 
 .nav-item{
@@ -250,3 +255,118 @@ nav{
     color: black;
 }
 
+@media only screen and (max-width: 500px){
+    .logo-img{
+        position: relative;
+        top: -1rem;
+        right: 13rem;
+        width: 90px;
+    }
+
+    .nav-links{
+        visibility: hidden;
+    }
+    
+    .banner-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left1{
+        
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 2rem;
+    }
+
+    .h1b1{
+        font-size: 27px;
+        width: 100vw;
+        margin-left: 1rem;
+        text-align: center;
+    }
+
+    .p1b1{
+        width: 90vw;
+        text-align: center;
+        margin-right: 4rem;
+        margin-left: 4rem;
+        font-size: 13px;
+    }
+
+    .img1{
+        width: 90vw;
+        height: 300px;
+        margin-left: 2rem;
+    }
+
+    .banner-2{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: .1rem;
+    }
+
+    .right2{
+        position: relative;
+        top: 25rem;
+    }
+
+    .arrow{
+        width: 15px;
+        height: 20px;
+    }
+
+    .list{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        position: relative;
+        top: -12rem;
+        margin-left: 3rem;
+    }
+
+    .list-head h3{
+        font-size: 20px;
+    }
+
+    .list-item p{
+        font-size: 13px;
+        width: 85vw;
+        position: relative;
+        right: 4rem;
+    }
+
+    .h2b2{
+        font-size: 23px;
+        text-align: center;
+    }
+
+    .img2{
+        width: 90vw;
+        height: 300px;
+        position: relative;
+        top: 18rem;
+    }
+
+    .banner-3{
+        position: relative;
+        top: 20rem;
+        height: 280vh;
+    }
+
+    .h1b3{
+        font-size: 23px;
+    }
+
+    .cards{
+        position: relative;
+        top: 50rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+}
